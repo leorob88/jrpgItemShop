@@ -1,0 +1,78 @@
+
+/* Main elements format */
+
+*{
+  color: #aaa;
+  font-family: "Verdana", "Arial", sans-serif;
+  font-size: 20px;
+}
+body{
+  background-color: #026;
+}
+div{
+  width: 294px;
+}
+button{
+  background-color: #642;
+  width: 60px;
+  border: solid #765 2px;
+  border-radius: 3px;
+}
+button:hover{
+  background-color: #864;
+  color: #ccc;
+}
+.centered-flex{
+  display: flex;
+  justify-content: center;
+}
+.centered-text{
+  text-align: center;
+}
+.lesser-font{
+  font-size: 16px;
+}
+
+/* Specific elements format */
+
+.resized {
+  padding: 10px;
+  margin: 5px auto;
+}
+.white-border {
+  border: solid #aaa 2px;
+  border-radius: 3px;
+}
+
+/* Item List format */
+
+.item-row{
+  display: flex;
+  justify-content: space-between;
+}
+.icon-name{
+  max-width: 46%;
+}
+.price{
+  padding-top: 8px;
+  max-width: 26%;
+}
+.selection{
+  max-width: 27%;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.quantity{
+  color: #222;
+  border: solid 1px #04c;
+  border-radius: 3px;
+  background-color: #cdf;
+  padding-top: 3px;
+}
+.plus-button, .minus-button{
+  max-width: 30%;
+}
+.plus-button{
+  padding-left: 3px;
+}
